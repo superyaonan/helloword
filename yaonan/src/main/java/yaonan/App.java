@@ -1,13 +1,17 @@
 package yaonan;
 
+import java.time.LocalDate;
+
 /**
  * Hello world!
  *
  */
-public class App 
+public class App
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
-        System.out.println( "Hello World!" );
+        System.out.println("Hello World!");
+        LocalDate date = LocalDate.now();
+        System.out.println(date);
     }
 }
